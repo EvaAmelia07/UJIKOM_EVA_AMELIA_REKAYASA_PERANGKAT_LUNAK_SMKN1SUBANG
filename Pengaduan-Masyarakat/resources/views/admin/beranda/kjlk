@@ -1,0 +1,3 @@
+<td class="project-state text-center">
+                        {{ implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}
+                      </td>
